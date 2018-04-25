@@ -1,0 +1,34 @@
+fun main(args: Array<String>){
+	val a:Int = 5;
+	val b:Int = 2
+	var max: Int
+	
+	if(a > b){
+		max = a
+	}else{
+		max = b
+	}
+	
+	println("Maximum of a or b is " + max)
+	
+	/*
+ 	when
+ 	like a 'switch' statement in other programming language
+	 */
+	val x:Int = 5;
+	when(x){
+		1 -> println("x == 1")
+		2 -> println("x == 2")
+		else -> {
+			println("x is neither 1 nor 2")
+		}
+	}
+	
+	val y:Int = 1;
+	when(y){
+		1,2 -> println("y == 1 or y == 2")
+		else -> {
+			println("y is neither 1 nor 2")
+		}
+	}
+}
