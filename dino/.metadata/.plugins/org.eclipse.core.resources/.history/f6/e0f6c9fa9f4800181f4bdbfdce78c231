@@ -62,21 +62,5 @@ fun main(args: Array<String>){
 	var items = listOf(1,2,3,4);
 	println("First Element of our list----" + items.first())
 	println("Last Element of our list----" + items.last())
-	println("Even Numbers of our list----" + items.filter{it % 2 == 0})
-	
-	val readWriteMap = hashMapOf("foo" to 1, "bar" to 2)
-	println(readWriteMap["foo"])
-	
-	val strings = hashSetOf("a","b","a","a")
-	println("My Set Values are " + strings)
-	
-	/*
- 	Ranges
-	 */
-	val i:Int = 2;
-	for(j in 1..4)
-		print(j)
-	if(i in 1..10){		//equivalent of 1 <= i && i <= 10
-		println("We found your number --"+i)
-	}
+	println("Even Numbers of our list----" + items.filter{its % 2 == 0})
 }
