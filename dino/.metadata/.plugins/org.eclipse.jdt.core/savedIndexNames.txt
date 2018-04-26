@@ -1,3 +1,6 @@
 INDEX VERSION 1.130+/Volumes/SAMSUNGUSB/Kotlin/kotlin_study/dino/.metadata/.plugins/org.eclipse.jdt.core
+2872746249.index
 3008456809.index
+710425043.index
 3701765113.index
+3293993215.index
