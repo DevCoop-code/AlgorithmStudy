@@ -1,0 +1,18 @@
+/*
+===Constructor=== 		
+In Kotlin There is a two types of Constructor
+1. primary constructor
+ role] initializes the class
+2. secondary constructor
+ role] include some extra logic while initializing the same
+*/
+
+fun main(args: Array<String>){
+	val person1 = Person("TutorialsPoint.com", 15)
+	println("First Name = ${person1.firstName}")
+	println("Age = ${person1.age}")
+}
+
+class Person(val firstName: String, var age: Int){
+	
+}

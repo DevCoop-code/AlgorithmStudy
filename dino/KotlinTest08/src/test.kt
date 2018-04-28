@@ -1,0 +1,51 @@
+/*
+===[Extension]===
+extension can add or remove some method functionality even without inheriting or modifying them.
+It does not actually modify the existing class, but it creates a callable function
+ 	
+Extensions are resolved statistically	
+*/
+
+/*
+Function Extension
+Kotlin allows to define a method outside of the main class 		
+*/
+
+class Alien{
+	var skills: String = "null"
+	
+	fun printMySkills(){
+		println(skills)
+	}
+}
+
+fun main(args: Array<String>){
+	var a1 = Alien()
+	a1.skills = "JAVA"
+	a1.printMySkills()
+	
+	var a2 = Alien()
+	a2.skills = "SQL"
+	a2.printMySkills()
+	
+	var a3 = Alien()
+	a3.skills = a1.addMySkills(a2)
+	a3.printMySkills()
+	
+	println("Heyyy!!!" + A.show())
+}
+
+fun Alien.addMySkills(a:Alien):String{
+	var a4 = Alien()
+	//this means callable class which call this method
+	a4.skills = this.skills + " " + a.skills
+	return a4.skills
+}
+
+class A{
+	companion object{
+		fun show():String{
+			return("You are learning Kotlin from TutorialsPoint.com")
+		}
+	}
+}
