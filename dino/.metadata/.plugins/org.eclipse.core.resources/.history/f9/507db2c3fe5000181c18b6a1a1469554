@@ -1,0 +1,13 @@
+/*
+ ===[Functions]===
+keyword: fun		
+*/
+
+fun main(args: Array<String>){
+	println(MyFunction("tutorialsPoint.com"))
+}
+
+fun MyFunction(x: String): String{
+	var c:String = "Hey!! Welcome To ---"
+	return (c+x)
+}
