@@ -1,4 +1,4 @@
-# DailtAlgorism
+# AlgorithmStudy
 
 Let's we solve the algorism everyday 
 
