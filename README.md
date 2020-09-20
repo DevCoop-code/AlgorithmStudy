@@ -8,6 +8,9 @@
 ## Rule 
 First Making a habit
 - Let's solve 1 problem of weeks at least
+- AlgorithmStudy/part/name/user/
+
+
 
 ## History
 
