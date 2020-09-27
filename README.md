@@ -18,7 +18,7 @@ Queue or Stack
 
 - 2020.09.14 - 2020.09.20
   - 다리를 지나는 트럭
-  ~~https://programmers.co.kr/learn/courses/30/lessons/42583?language=swift~~
+  - ~~https://programmers.co.kr/learn/courses/30/lessons/42583?language=swift~~
 
 
 - 2020.09.21 - 2020.09.27
