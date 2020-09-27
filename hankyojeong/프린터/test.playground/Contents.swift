@@ -7,17 +7,17 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
     var relocation: Int = location + 1
     
     for _ in 0 ... (printerArray.count - 1) {
-        var index4 = 1
-        if index4 < printerArray.count {
-            for _ in index4 ... (printerArray.count - 1) {
+        var index = 1
+        if index < printerArray.count {
+            for _ in index ... (printerArray.count - 1) {
                 // Swap
-                if printerArray[0] < printerArray[index4] {
+                if printerArray[0] < printerArray[index] {
                     temp = printerArray[0]
                     // Move All of Elements forward
-                    var index5 = 0
-                    for _ in index5 ... (printerArray.count - 2) {
-                        printerArray[index5] = printerArray[index5 + 1]
-                        index5 += 1
+                    var index2 = 0
+                    for _ in index2 ... (printerArray.count - 2) {
+                        printerArray[index2] = printerArray[index2 + 1]
+                        index2 += 1
                     }
                     printerArray[printerArray.count - 1] = temp
                     
@@ -28,7 +28,7 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
                     }
                     break
                 }
-                index4 += 1
+                index += 1
             }
         }
     }
@@ -70,5 +70,5 @@ func solution(_ priorities:[Int], _ location:Int) -> Int {
     return relocation
 }
 
-//print("\(solution([2, 1, 3, 2], 2))")
+print("\(solution([2, 1, 3, 2], 2))")
 print("\(solution([1, 1, 9, 1, 1, 1], 0))")
