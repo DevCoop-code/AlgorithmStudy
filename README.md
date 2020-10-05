@@ -26,5 +26,5 @@ Queue or Stack
   - ~~https://programmers.co.kr/learn/courses/30/lessons/42587~~
 
 - 2020.09.27 - 2020.10.04
-  - ~~Balanced-brackets ~~
+  - ~~Balanced-brackets~~
   - ~~https://www.hackerrank.com/challenges/balanced-brackets/problem~~
