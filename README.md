@@ -31,7 +31,7 @@ Queue or Stack
   - ~~https://www.hackerrank.com/challenges/balanced-brackets/problem~~
   
   
-- 2020.10.05 - 2020.10.12
+- 2020.10.05 - 2020.10.18
   - 모의고사
   - https://programmers.co.kr/learn/courses/30/lessons/42840
 
