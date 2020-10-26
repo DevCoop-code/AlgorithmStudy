@@ -38,5 +38,9 @@ Queue or Stack
 - 2020.10.18 - 2020.10.25
   - 체육복
   - https://programmers.co.kr/learn/courses/30/lessons/42862
+ 
+- 2020.10.26 - 2020.11.01
+  - 카펫
+  - https://programmers.co.kr/learn/courses/30/lessons/42842
 
 
